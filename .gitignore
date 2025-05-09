@@ -44,5 +44,5 @@ build/
 
 ### 환경 파일 ###
 .env
-application-*.yml
-application-*.properties
+application*.yml
+application*.properties
