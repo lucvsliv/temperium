@@ -1,6 +1,6 @@
-package com.lucvs.tempesta.service;
+package com.lucvs.temperium.service;
 
-import com.lucvs.tempesta.entity.User;
+import com.lucvs.temperium.entity.User;
 
 import java.util.List;
 

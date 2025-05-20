@@ -1,7 +1,7 @@
-package com.lucvs.tempesta.service;
+package com.lucvs.temperium.service;
 
-import com.lucvs.tempesta.entity.User;
-import com.lucvs.tempesta.repository.UserRepository;
+import com.lucvs.temperium.entity.User;
+import com.lucvs.temperium.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.lucvs.tempesta.entity;
+package com.lucvs.temperium.entity;
 
 import jakarta.persistence.*;
 
@@ -21,7 +21,7 @@ public class TempinoInstance {
     @JoinColumn(name = "tempino_id", nullable = false)
     private Tempino tempino;
 
-    @Column(name = "nickname", length = 50)
+    @Column(name = "nickname", unique = true,length = 50)
     private String nickname;
 
     @Column(name = "level", nullable = false)

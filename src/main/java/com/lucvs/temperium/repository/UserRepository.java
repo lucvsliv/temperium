@@ -1,6 +1,6 @@
-package com.lucvs.tempesta.repository;
+package com.lucvs.temperium.repository;
 
-import com.lucvs.tempesta.entity.User;
+import com.lucvs.temperium.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

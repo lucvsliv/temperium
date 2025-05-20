@@ -1,4 +1,4 @@
-package com.lucvs.tempesta.entity;
+package com.lucvs.temperium.entity;
 
 import jakarta.persistence.*;
 
@@ -10,6 +10,8 @@ import java.time.LocalDate;
         uniqueConstraints = @UniqueConstraint(columnNames = {"tempino_instance_id", "date"})
 )
 public class GrowthLog {
+
+    // fields
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

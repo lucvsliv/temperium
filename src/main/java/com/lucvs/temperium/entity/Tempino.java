@@ -1,4 +1,4 @@
-package com.lucvs.tempesta.entity;
+package com.lucvs.temperium.entity;
 
 import jakarta.persistence.*;
 

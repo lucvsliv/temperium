@@ -1,4 +1,4 @@
-package com.lucvs.tempesta;
+package com.lucvs.temperium;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
