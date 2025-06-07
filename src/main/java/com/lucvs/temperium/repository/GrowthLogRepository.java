@@ -1,6 +1,6 @@
 package com.lucvs.temperium.repository;
 
-import com.lucvs.temperium.entity.GrowthLog;
+import com.lucvs.temperium.dto.GrowthLog;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
 package com.lucvs.temperium.service;
 
-import com.lucvs.temperium.entity.User;
+import com.lucvs.temperium.dto.User;
 import com.lucvs.temperium.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.security.crypto.password.PasswordEncoder;

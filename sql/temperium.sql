@@ -1,6 +1,6 @@
 -- 데이터베이스 생성 및 사용
-CREATE DATABASE IF NOT EXISTS `tempesta`;
-USE `tempesta`;
+CREATE DATABASE IF NOT EXISTS `temperium`;
+USE `temperium`;
 
 -- 기존 테이블 삭제
 DROP TABLE IF EXISTS `user`;

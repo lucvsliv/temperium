@@ -1,6 +1,6 @@
 package com.lucvs.temperium.service;
 
-import com.lucvs.temperium.entity.User;
+import com.lucvs.temperium.dto.User;
 
 import java.util.List;
 

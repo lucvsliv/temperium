@@ -1,7 +1,7 @@
 package com.lucvs.temperium.repository;
 
-import com.lucvs.temperium.entity.TempinoInstance;
-import com.lucvs.temperium.entity.User;
+import com.lucvs.temperium.dto.TempinoInstance;
+import com.lucvs.temperium.dto.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

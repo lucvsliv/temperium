@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lucvs</groupId>
-	<artifactId>tempesta</artifactId>
+	<artifactId>temperium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tempesta</name>
+	<name>temperium</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -64,6 +64,39 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- WebClient (Spring WebFlux) for using open api -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.94.Final</version>
+		</dependency>
+
+		<!-- for JWT Authentication -->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson -->
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

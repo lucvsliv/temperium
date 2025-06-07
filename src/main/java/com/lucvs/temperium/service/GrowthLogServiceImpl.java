@@ -1,6 +1,6 @@
 package com.lucvs.temperium.service;
 
-import com.lucvs.temperium.entity.GrowthLog;
+import com.lucvs.temperium.dto.GrowthLog;
 import com.lucvs.temperium.repository.GrowthLogRepository;
 import org.springframework.stereotype.Service;
 

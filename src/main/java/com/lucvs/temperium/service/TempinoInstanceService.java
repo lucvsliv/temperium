@@ -1,6 +1,6 @@
 package com.lucvs.temperium.service;
 
-import com.lucvs.temperium.entity.TempinoInstance;
+import com.lucvs.temperium.dto.TempinoInstance;
 
 public interface TempinoInstanceService {
 
