@@ -1,7 +1,5 @@
 package com.lucvs.temperium.controller;
 
-import com.lucvs.temperium.dto.User;
-import com.lucvs.temperium.security.JwtTokenProvider;
 import com.lucvs.temperium.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
